@@ -14,8 +14,8 @@ import java.util.concurrent.TimeUnit;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes=ReadingListApplication.class)
-@WebIntegrationTest(randomPort=true)
+//@SpringApplicationConfiguration(classes=ReadingListApplication.class)
+//@WebIntegrationTest(randomPort=true)
 public class ServerWebTests {
   
   private static FirefoxDriver browser;
